@@ -96,7 +96,7 @@ public class BlockConcretePowder extends Block {
 	}
 
 	public static boolean checkWater(World w, int x, int y, int z, int metadata) {
-		int[][] coords = new int[][]{{x, y, z - 1}, {x, y, z + 1}, {x - 1, y, z}, {x + 1, y, z}, {x, y + 1, z}, {x, y - 1, z}};
+		int[][] coords = new int[][]{{x, y, z - 1}, {x, y, z + 1}, {x - 1, y, z}, {x + 1, y, z}, {x, y + 1, z}};
 		int[][] i6 = coords;
 		int i7 = coords.length;
 
