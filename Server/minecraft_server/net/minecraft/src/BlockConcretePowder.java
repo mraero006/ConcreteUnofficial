@@ -105,8 +105,7 @@ public class BlockConcretePowder extends Block {
 			new int[] {x, y, z + 1},
 			new int[] {x - 1, y, z},
 			new int[] {x + 1, y, z},
-			new int[] {x, y + 1, z},
-			new int[] {x, y - 1, z}};
+			new int[] {x, y + 1, z}};
 		for(int[] c : coords) {
 			int id = w.getBlockId(c[0], c[1], c[2]);
 			if (id == Block.waterMoving.blockID || id == Block.waterStill.blockID) {
